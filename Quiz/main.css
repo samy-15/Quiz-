@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/pastel-color-watercolor-stain-background_52683-12283.jpg?size=626&ext=jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .quest-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 32px;
+    margin: 70px;
+    box-sizing: border-box;
+  }
+  .questions li {
+    list-style-type:lower-alpha;
+    padding-left: 0;
+    background-color: #07b0ff;
+    padding: 16px !important;
+    border:5px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: rgb(14, 4, 3);
+  }
+  .questions li.active {
+    background: #080079;
+    color: #fff;
+  }
+  p.category {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .heading {
+    margin-bottom: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .badge {
+    font-size: 32px;
+  }
+  .btn-primary {
+    color: #fff !important;
+    font-size: 24px;
+  }
+  
